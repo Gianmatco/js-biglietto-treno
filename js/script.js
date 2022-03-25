@@ -19,11 +19,11 @@ let bigliettoUtente  = numeroKilometri * prezzoAlKm ;
 console.log(bigliettoUtente);
 
 
-let scontoMinorenni = bigliettoUtente * '0,2';
+let scontoMinorenni = bigliettoUtente * '0.2';
 console.log(scontoMinorenni)
 
 
-let scontoOver = bigliettoUtente * '0,4';
+let scontoOver = bigliettoUtente * '0.4';
 console.log(scontoOver)
 
 
@@ -43,7 +43,7 @@ if(etaUtente <= '18'){
 
 
 
-document.getElementById("prezzobigliettoutente").innerHTML = prezzoBigliettoUtente;
+document.getElementById("prezzobigliettoutente").innerHTML = prezzoBigliettoUtente + '€';
 
 
 
